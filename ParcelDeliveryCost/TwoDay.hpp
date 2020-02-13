@@ -13,6 +13,8 @@
 #include "Standard.hpp"
 
 class TwoDay : public Standard{
+private:
+    const double flatFee = 4.0;
 public:
     TwoDay(People, People, Parcel);
     double calcCost();

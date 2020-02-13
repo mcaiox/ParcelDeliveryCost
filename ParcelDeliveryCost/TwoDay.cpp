@@ -23,5 +23,5 @@ double TwoDay::calcCost()
     cout<<"\n";
     cout<<"----  Delivery Cost ----"<<endl;
     cout<< "£";
-    return ((p.getWeight() * 2.6)+4) ;
+    return ( (p.getWeight() * standardCost) + flatFee ) ;
 }

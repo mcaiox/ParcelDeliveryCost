@@ -18,6 +18,7 @@ using namespace std;
 
 class Standard{
 protected:
+    const double standardCost = 2.6;
     People sender;
     People recipient;
     Parcel p;

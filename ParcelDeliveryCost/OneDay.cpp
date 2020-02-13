@@ -22,5 +22,5 @@ double OneDay::calcCost()
     cout<<"\n";
     cout<<"----  Delivery Cost ----"<<endl;
     cout<< "£";
-    return ((p.getWeight() * 6.1)) ;
+    return ((p.getWeight() * (standardCost + additionalFee)));
 }
