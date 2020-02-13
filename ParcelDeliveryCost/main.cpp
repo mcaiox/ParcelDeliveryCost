@@ -41,7 +41,10 @@ int main(int argc, const char * argv[]) {
     
     for(int i=0; i<v.size(); i++)
      {
-         cout <<"Cost of Delivery £"<< v[i]->calcCost() << i << endl;;
+         cout << v[i]->calcCost() << i << endl;;
+         cout << "\n" << endl;
+         cout << "\n" << endl;
+         
      }
      cout << "\n" << endl;
     

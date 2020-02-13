@@ -17,10 +17,9 @@
 using namespace std;
 
 class Standard{
-private:
+protected:
     People sender;
     People recipient;
-protected:
     Parcel p;
 public:
     Standard(People, People, Parcel);

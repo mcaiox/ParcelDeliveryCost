@@ -10,6 +10,7 @@
 #define Parcel_hpp
 
 #include <iostream>
+#include <stdexcept>
 
 class Parcel{
 private:
@@ -17,6 +18,7 @@ private:
 public:
     Parcel(double);
     double getWeight();
+    void setWeight(double);
 };
 
 #endif /* Parcel_hpp */

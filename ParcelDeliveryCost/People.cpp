@@ -13,7 +13,6 @@ People::People(string name, string address, string city, string postcode): name(
 }
 
 void People::printInfo(){
-  cout<< "-----Parcel Summary-----\n"<<endl;
   cout<< "Name     : " << name <<endl;
   cout<< "Address  : " << address <<endl;
   cout<< "City     : " << city <<endl;
