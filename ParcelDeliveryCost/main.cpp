@@ -45,9 +45,6 @@ int main(int argc, const char * argv[]) {
      }
      cout << "\n" << endl;
     
-    //cout<<"Cost of Delivery £"<< st.calcCost()<<endl;
-    //cout<<"Cost of Delivery £"<< td1->calcCost()<<endl;
-    //cout<<"Cost of Delivery £"<< od1->calcCost()<<endl;
     
 
 
